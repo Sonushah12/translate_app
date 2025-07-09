@@ -281,7 +281,7 @@ class FloatingService : Service() {
     }
 
     private fun callGeminiApi(text: String, language: String, resultView: TextView?) {
-        val apiKey = "AIzaSyAy5xW2-z_anLdPYhFixJZPO-PBWtDUE3w"
+        val apiKey = "YOUR_API_KEY"
         val prompt = "Translate \"$text\" to $language. Return only the translated text."
         val urlString = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$apiKey"
 
