@@ -143,7 +143,7 @@ class _TranslationDashboardState extends State<TranslationDashboard> {
       return;
     }
 
-    const apiKey = 'AIzaSyAy5xW2-z_anLdPYhFixJZPO-PBWtDUE3w';
+    const apiKey = 'YOUR_API_KEY';
     final url = Uri.parse('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$apiKey');
 
     setState(() {
