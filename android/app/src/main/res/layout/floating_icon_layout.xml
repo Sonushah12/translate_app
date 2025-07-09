@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <!-- Floating icon -->
+    <ImageView
+        android:id="@+id/icon_view"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_floating_icon"
+        android:contentDescription="Floating Translator Icon" />
+
+    <!-- Close button aligned to top-right of the icon -->
+    <ImageView
+        android:id="@+id/btn_icon_close"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_close"
+        android:contentDescription="Close button"
+        />
+
+</FrameLayout>
